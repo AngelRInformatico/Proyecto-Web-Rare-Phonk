@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MonWoff</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./sources/image/icono.ico" type="image/x-icon">
+        <!--Links de estilos-->
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/reproductor.css">
+        <link rel="stylesheet" href="./css/responsive.css">
+        <link rel="stylesheet" href="./css/galery.css">
+        <!--Links para la fuente general-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400..700&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+        <!--Links para la fuente del banner-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!--Link de la biblioteca jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <button id="back-to-top-button" class="blur-background">Back to top</button>
+        <header>
+            <nav id="navbar">
+                <section style="grid-column: 1;">
+                    <div class="navigation blur-background">
+                        <img src="./sources/image/logo.png" alt="logo" class="logo">
+                        <ul style="justify-content: center;" class="nav-button-container flex">
+                            <li><p>--</p><img src="./sources/icons/notification.png" alt="notifications" class="icon"></li>
+                            <li><img src="./sources/icons/saved.png" alt="saved" class="icon"></li>
+                            <li><img src="./sources/icons/category.png" alt="category" class="icon"></li>
+                        </ul>
+                    </div>
+                </section>
+                <section style="grid-column: 2;" class="search_bar_container">
+                    <div class="searchbar blur-background">
+                        <input type="text" placeholder="search a song">
+                        <img src="./sources/icons/search.png" alt="search button">
+                    </div>
+                </section>
+            </nav>
+            <section class="banner" id="banner">
+                <p style="display: none;">Music on<br>World off</p>
+                <h1 style="transform: scale(0.90);">Rare Phonk</h1>
+            </section>
+        </header>
+        <main>
+            <div class="custom-shape-divider-top-1714695157">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <article class="content-container">
+                <div class="ilustrative-img">
+                    <img src="./sources/image/reference.png" alt="reference" style="grid-column: 1;" class="blur-background-2 Lazy_Section" loading="lazy">
+                </div>
+                <section class="content-music-container blur-background-2 Lazy_Section" style="grid-column: 2;">
+                    <div class="preview">
+                        <div class="header flex">
+                            <h2>Best <i>BERRYMANE</i> Phonk</h2>
+                            <p class="switch-content" style="text-decoration: underline;cursor: pointer;">View all</p>
+                        </div>
+                        <hr style="border-color: rgba(0, 0, 0, 0.3); margin-left:5%; margin-right: 5%;">
+                        <h3>Top Tracks Spotlight</h3>
+                        <!--En esta seccion va el contenido (canciones)-->
+                        <section class="cards-container">
+                            <div style="grid-column: 1;">
+                                <p class="tittles-font">MOB TIES</p>
+                                <img src="./sources/music/trap alley/MOB TIES.png" alt="song" data-audio="./sources/music/trap alley/MOB TIES.mp4" data-name="MOB TIES" class="song song_play">
+                            </div>
+                            <div style="grid-column: 2;">
+                                <p class="tittles-font">HEAR NO HATAZ</p>
+                                <img src="./sources/music/trap haven/HEAR NO HATAZ w  OUTLAWFIENDZ x SOUDIERE.png" alt="song" data-audio="./sources/music/trap haven/HEAR NO HATAZ w  OUTLAWFIENDZ x SOUDIERE.mp4" data-name="HEAR NO HATAZ" class="song song_play">
+                            </div>
+                            <div style="grid-column: 3;">
+                                <p class="tittles-font">HOODRICH</p>
+                                <img src="./sources/music/trap alley/HOODRICH.png" alt="song" data-audio="./sources/music/trap alley/HOODRICH.mp4" data-name="HOODRICH" class="song song_play">
+                            </div>
+                        </section>
+                        <h3>Prime Cuts Showcase</h3>
+                        <section class="cards-container">
+                            <div style="grid-column: 1;">
+                                <p class="tittles-font">NO TRUST</p>
+                                <img src="./sources/music/trap alley/NO TRUST.png" alt="song" data-audio="./sources/music/trap alley/NO TRUST.mp4" data-name="NO TRUST" class="song song_play">
+                            </div>
+                            <div style="grid-column: 2;">
+                                <p class="tittles-font">SMOKE AND MIRRORS</p>
+                                <img src="./sources/music/trap domain/SMOKE AND MIRRORS.png" alt="song" data-audio="./sources/music/trap domain/SMOKE AND MIRRORS.mp4" data-name="SMOKE AND MIRRORS" class="song song_play">
+                            </div>
+                            <div style="grid-column: 3;">
+                                <p class="tittles-font">GET SMACKED IN THIS 94'</p>
+                                <img src="./sources/music/trap haven/GET SMACKED IN THIS 94' w  DJ SMOKEY x BACKWOOD BOY.png" alt="song" data-audio="./sources/music/trap haven/GET SMACKED IN THIS 94' w  DJ SMOKEY x BACKWOOD BOY.mp4" data-name="GET SMACKED IN THIS 94'" class="song song_play">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="all">
+                        <div class="header flex">
+                            <h2 class="hits_tittle">All <i>BERRYMANE</i> Phonk</h2>
+                            <p class="switch-content" style="text-decoration: underline;cursor: pointer;">Close</p>
+                        </div>
+                        <hr style="border-color: rgba(0, 0, 0, 0.3); margin-left:5%; margin-right: 5%;">
+                        <h3>Trap Alley</h3>
+                        <section class="cards-container">
+                            <div style="grid-column: 1;">
+                                <p class="tittles-font">HOODRICH</p>
+                                <img src="./sources/music/trap alley/HOODRICH.png" alt="song" data-audio="./sources/music/trap alley/HOODRICH.mp4" data-name="HOODRICH" class="song song_play">
+                            </div>
+                            <div style="grid-column: 2;">
+                                <p class="tittles-font">MARY JANE</p>
+                                <img src="./sources/music/trap alley/MARY JANE.png" alt="song" data-audio="./sources/music/trap alley/MARY JANE.mp4" data-name="MARY JANE" class="song song_play">
+                            </div>
+                            <div style="grid-column: 3;">
+                                <p class="tittles-font">MOB TIES</p>
+                                <img src="./sources/music/trap alley/MOB TIES.png" alt="song" data-audio="./sources/music/trap alley/MOB TIES.mp4" data-name="MOB TIES" class="song song_play">
+                            </div>
+                            <div style="grid-column: 4;">
+                                <p class="tittles-font">NO TRUST</p>
+                                <img src="./sources/music/trap alley/NO TRUST.png" alt="song" data-audio="./sources/music/trap alley/NO TRUST.mp4" data-name="NO TRUST" class="song song_play">
+                            </div>
+                            <div style="grid-column: 5;">
+                                <p class="tittles-font">ON THE WAY</p>
+                                <img src="./sources/music/trap alley/ON THE WAY w  SOUDIERE.png" alt="song" data-audio="./sources/music/trap alley/ON THE WAY w  SOUDIERE.mp4" data-name="ON THE WAY" class="song song_play">
+                            </div>
+                        </section>
+                        <h3>Trap Haven</h3>
+                        <section class="cards-container">
+                            <div style="grid-column: 1;">
+                                <p class="tittles-font">CODEINE ADDICT</p>
+                                <img src="./sources/music/trap haven/CODEINE ADDICT w  ROLAND JONES x TENNGAGE.png" alt="song" data-audio="./sources/music/trap haven/CODEINE ADDICT w  ROLAND JONES x TENNGAGE.mp4" data-name="CODEINE ADDICT" class="song song_play">
+                            </div>
+                            <div style="grid-column: 2;">
+                                <p class="tittles-font">DO IT RIGHT</p>
+                                <img src="./sources/music/trap haven/DO IT RIGHT.png" alt="song" data-audio="./sources/music/trap haven/DO IT RIGHT.mp4" data-name="DO IT RIGHT" class="song song_play">
+                            </div>
+                            <div style="grid-column: 3;">
+                                <p class="tittles-font">GET SMACKED IN THIS 94'</p>
+                                <img src="./sources/music/trap haven/GET SMACKED IN THIS 94' w  DJ SMOKEY x BACKWOOD BOY.png" alt="song" data-audio="./sources/music/trap haven/GET SMACKED IN THIS 94' w  DJ SMOKEY x BACKWOOD BOY.mp4" data-name="GET SMACKED IN THIS 94'" class="song song_play">
+                            </div>
+                            <div style="grid-column: 4;">
+                                <p class="tittles-font">HAUNTED</p>
+                                <img src="./sources/music/trap haven/HAUNTED.png" alt="song" data-audio="./sources/music/trap haven/HAUNTED.mp4" data-name="HAUNTED" class="song song_play">
+                            </div>
+                            <div style="grid-column: 5;">
+                                <p class="tittles-font">HEAR NO HATAZ</p>
+                                <img src="./sources/music/trap haven/HEAR NO HATAZ w  OUTLAWFIENDZ x SOUDIERE.png" alt="song" data-audio="./sources/music/trap haven/HEAR NO HATAZ w  OUTLAWFIENDZ x SOUDIERE.mp4" data-name="HEAR NO HATAZ" class="song song_play">
+                            </div>
+                        </section>
+                        <h3>Trap Domain</h3>
+                        <section class="cards-container">
+                            <div style="grid-column: 1;">
+                                <p class="tittles-font">666 Wind wlvks</p>
+                                <img src="./sources/music/trap domain/6-6-6 - Wind w  l v k s.png" alt="song" data-audio="./sources/music/trap domain/6-6-6 - Wind w  l v k s.mp4" data-name="666 Wind wlvks" class="song song_play">
+                            </div>
+                            <div style="grid-column: 2;">
+                                <p class="tittles-font">SMOKE AND MIRRORS</p>
+                                <img src="./sources/music/trap domain/SMOKE AND MIRRORS.png" alt="song" data-audio="./sources/music/trap domain/SMOKE AND MIRRORS.mp4" data-name="SMOKE AND MIRRORS" class="song song_play">
+                            </div>
+                            <div style="grid-column: 3;">
+                                <p class="tittles-font">BLOOD ON MY ICE</p>
+                                <img src="./sources/music/trap domain/BLOOD ON MY ICE.png" alt="song" data-audio="./sources/music/trap domain/BLOOD ON MY ICE.mp4" data-name="BLOOD ON MY ICE" class="song song_play">
+                            </div>
+                            <div style="grid-column: 4;">
+                                <p class="tittles-font">CAN'T SLEEP</p>
+                                <img src="./sources/music/trap domain/CAN'T SLEEP w  ROLAND JONES.png" alt="song" data-audio="./sources/music/trap domain/CAN'T SLEEP w  ROLAND JONES.mp4" data-name="CAN'T SLEEP" class="song song_play">
+                            </div>
+                            <div style="grid-column: 5;">
+                                <p class="tittles-font">CAUGHT UP IN A CLICK</p>
+                                <img src="./sources/music/trap domain/CAUGHT UP IN A CLICK w  ROLAND JONES.png" alt="song" data-audio="./sources/music/trap domain/CAUGHT UP IN A CLICK w  ROLAND JONES.mp4" data-name="CAUGHT UP IN A CLICK" class="song song_play">
+                            </div>
+                        </section>
+                    </div>
+                </section>
+                <section class="content-biography-container blur-background-2 Lazy_Section" style="grid-column: 2;">
+                    <h2>Biography and social media</h2>
+                    <div style="display: flex;">
+                        <div class="autor-container">
+                            <img src="./sources/image/autor.jpeg">
+                            <h3 style="margin-top: 50px;">Bryahn Smith</h3>
+                            <p>Hi kinda person, my artist name is BERRYMANE, I am a Parties DJ & virtual music compositer and this is my page with some of my best songs and events information.</p>
+                        </div>
+                        <div class="social-media-container">
+                            <h3>You can follow me on:</h3>
+                            <div class="social-media-icons-container">
+                                <div>
+                                    <img src="./sources/icons/youtube.png" alt="youtube-icon" style="object-fit: contain;">
+                                    <p>Youtube as: <br>Rare Phonk Oficial</p>
+                                </div>
+                                <div>
+                                    <img src="./sources/icons/facebook.png" alt="facebook-icon" style="object-fit: contain;">
+                                    <p>Facebook as: <br>Berrymane Oficial</p>
+                                </div>
+                                <div>
+                                    <img src="./sources/icons/instagram.png" alt="instagram-icon" style="object-fit: contain;">
+                                    <p>Instagram as: <br>Rare Phonk Oficial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+
+
+
+            <!--Catalogo de musica-->
+            <!-- <article class="music_galery_container blur-background-2">
+                <div class="music-gallery">
+                    <h2>All MonWoff music</h2>
+                    <div class="music-grid">
+                        <div class="music-item">
+                            <p class="tittles-font">Its Rex</p>
+                            <img src="./sources/catalog/hits-2023/itsrex-banner.png" alt="Its Rex song" data-audio="./sources/music/its_rex.mp3" data-name="Its Rex" class="song song_play">
+                        </div>
+                        <div class="music-item">
+                            <p class="tittles-font">Unius</p>
+                            <img src="./sources/catalog/hits-2023/unius-banner.png" alt="Unius song" data-audio="./sources/music/unius.mp3" data-name="Unius" class="song song_play">
+                        </div>
+                        <div class="music-item">
+                            <p class="tittles-font">Run</p>
+                            <img src="./sources/catalog/hits-2023/run.png" alt="Run song" data-audio="./sources/music/Run.mp3" data-name="Run" class="song song_play">
+                        </div>
+                    </div>
+                    <button id="back-to-top">Volver al inicio</button>
+                </div>
+            </article> -->
+
+
+
+
+            <!--Este es el codigo del reproductor de musica-->
+            <div class="reproductor_container blur-background" id="reproductor-styles">
+                <img src="./sources/icons/expand.png" class="expand_button" id="expandButton">
+                <img src="./sources/icons/suspend.png" class="suspend_button" id="suspendButton">
+                <img src="./sources/icons/close.png" class="close_button" id="closeButton">
+                <img src="./sources/catalog/hits-2023/billy-payne-banner.png" alt="cover image" class="cover" id="cover">
+                <ul class="buttons">
+                    <li><img src="./sources/icons/like.png"></li>
+                    <li><img src="./sources/icons/saved.png"></li>
+                    <li><img src="./sources/icons/share.png"></li>
+                </ul>
+                <div class="reproductor">
+                    <div>
+                        <h3 style="margin: 0px;" id="songName">Example</h3>
+                    </div>
+                    <p style="margin-top: 10px;">Music on World off</p>
+                    <audio src="./sources/music/its_rex.mp3" type="audio/mp3" id="reproductor"></audio>
+                    <div class="reproductor_bar_container" id="reproductorBar">
+                        <div class="reproductor_bar" id="reproductorProgress"></div>
+                    </div>
+                    <div class="reproductor_buttons_container">
+                        <img src="./sources/icons/play.png" alt="play pause" id="playPause" style="height: 20px;">
+                        <img src="./sources/icons/restart.png" alt="restart song" id="restart" style="height: 20px; margin-left: 5px;">
+                        <p class="reproduction_time" id="tiempoReproduccion">0:00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Divisor-->
+            <div class="custom-shape-divider-bottom-1717338557">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>About The Page</h3>
+<!--                     <p>Somos una plataforma donde puedes subir y compartir tu música con el mundo.</p>
+ -->                    <p>This is a plataform in where you can listen of all my <i>Rare Phonk</i> Music</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li><p id="back-to-top-text">Start</p></li>
+                        <li><a href="#">Biography</a></li>
+                        <li><a href="#">Notices</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p>Email: rarephonk@mysoundspace.com</p>
+                    <p>Phone: +1 (809) 677-0818</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Me On</h3>
+                    <ul class="social-media">
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 RarePhonk. All rights retained.</p>
+            </div>
+        </footer>
+    </body>
+    <script src="./js/script.js"></script>
+    <script src="./js/lazy.js"></script>
+    <script src="./js/reproductor.js"></script>
+    <script src="./js/content.js"></script>
+    <script src="./js/start.js"></script>
+    <script src="./js/navbar.js"></script>
+</html>

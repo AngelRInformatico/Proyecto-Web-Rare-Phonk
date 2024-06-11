@@ -1,0 +1,175 @@
+/*Nest Hub Max*/
+@media screen and (max-width: 1280px) {
+    /* .content-container > section{
+        height: 565px;
+    } */
+}
+
+/*Nest hub*/ 
+@media screen and (max-width: 1024px) {
+    .navigation .nav-button-container {
+        width: 60%;
+    }
+    /* .content-container > section {
+        height: 480px;
+    } */
+}
+
+/*¡Pad Pro*/
+@media screen and (max-width: 1024px) and (min-height: 1366px) {
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    } .content-container > section {
+        margin-bottom: 20px;
+        margin-top: 50px;
+        width: 87.5vw;
+        height: 87.5vw;
+    } .content-container .ilustrative-img {
+        width: 100%;
+        height: 200vw;
+        position: static;
+    } .content-container .ilustrative-img img {
+        top: 5vh;
+    }
+}
+
+/*Surface Pro 7*/
+@media screen and (max-width: 912px) {
+    .navigation {
+        width: 240px;
+    }
+    .navigation .nav-button-container {
+        width: 60%;
+    }
+    .search_bar_container  {
+        grid-column: 2/3;
+        margin-left: 10px;
+    }
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    } .content-container > section {
+        margin-bottom: 20px;
+    } .content-container .ilustrative-img {
+        position: static;
+        width: 100%;
+        margin-bottom: 40px;
+    } .content-container > section {
+        margin-top: 50px;
+        width: 95%;
+        /* height: 750px; */
+    }
+}
+
+/*Azus Zenbook Fold*/
+@media screen and (max-width: 853px) {
+    .content-container .ilustrative-img {
+        width: 100%;
+        height: 200vw;
+        position: static;
+    }
+    .content-container > section {
+        margin-top: 50px;
+        width: 95%;
+        height: 87.5vw;
+    }
+}
+
+/*¡Pad Mini*/
+/* @media screen and (max-width: 820px) {
+    .content-container > section {
+        height: 700px;
+    }
+} */
+
+/*¡Pad Air*/
+/* @media screen and (max-width: 768px) {
+    .content-container > section {
+        height: 650px;
+    }
+} */
+
+/*Pie de pagina*/
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/*Surface Duo*/
+@media screen and (max-width: 540px) {
+    /* .content-container > section {
+        height: 87.5vw;
+    } */ .searchbar img {
+        display: none;
+    }
+}
+
+/*¡Phone 14 Pro Max*/ /*¡Phone XR*/
+@media screen and (max-width: 430px) {
+    .search_bar_container .searchbar input {
+        display: none;
+    } .searchbar {
+        width: 65%;
+        padding-left: 10px;
+    } .searchbar img {
+        display: block;
+        margin-left: 10px;        
+    }
+}
+
+/*Samsung Galaxy A51/71*/
+@media screen and (max-width: 412px) {
+    body {
+        width: 105%;
+    } nav {
+        width: 105%;
+    }
+    .search_bar_container .searchbar  {
+        width: 90%;
+    } /* .content-container > section {
+        height: 450px;
+    } */
+    .reproductor_container {
+        transform: scale(0.75);
+        bottom: 35px;
+        left: -40px;
+    }
+    .content-biography-container * {
+        font-size: 0.95em;
+    }
+}
+
+/*¡Phone SE*/
+@media screen and (max-width: 375px) {
+    body {
+        width: 100%;
+    } nav {
+        width: 100%;
+    }
+}
+
+/*Galaxy Z Fold 5*/
+@media screen and (max-width: 344px) {
+    body {
+        width: 117.5%;
+    } nav {
+        width: 117.5%;
+    }
+    .search_bar_container .searchbar  {
+        width: 100%;
+    }
+    .reproductor_container {
+        transform: scale(0.7);
+        bottom: 20px;
+        left: -55px;
+    }
+    .content-container > section {
+        height: 100vw;
+    }
+}

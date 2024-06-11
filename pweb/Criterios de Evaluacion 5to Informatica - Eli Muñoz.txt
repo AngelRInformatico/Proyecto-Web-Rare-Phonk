@@ -1,0 +1,48 @@
+/-------------------------------------------/
+
+1. Nombre del Proyecto y/o Empresa. 📌 (hecho)
+2. Funcionalidad de la Pagina. 📌 (proceso)
+3. La Pagina debe ser Responsive. 📌 (hecho)
+4. Buena Computadora Para la Carga del Proyecto. 📌 (no tengo laptop)
+5. Accesibilidad 📌 (hecho)
+6. Estructura Logica. 📌 (hecho)
+7. Animaciones de Pagina web. 📌 (Contiene animaciones)
+
+/-------------------------------------------/
+
+Preguntas que tienes que Responder.
+
+1- ¿Por que su Proyecto es mas factible para los demas?
+
+   Como proyecto, el beneficio principal que 
+   ofrece este y lo que lo hace mas factible es 
+   que, este es un espacio unico y personal
+   donde las los usuarios pueden encontrar y
+   escuchar solo la coleccion de musica esp-
+   ecifica para lo que fue hecho, por lo tanto,
+   puede anexar o suplantar el uso de plataformas
+   publicas de musica en la que los usuarios
+   escuchen las canciones de dicho artista
+   presentado en el proyecto en cuestion.
+
+
+2- ¿Que ofrece a los demas proyectos y/o Empresas?
+
+   Un medio por el cual el proyecyo puede 
+   beneficiarse es el uso de afiliaciones
+   con otras empresas para que ellas puedan
+   promocionar sus productos con el fin de 
+   hacer una relacion de beneficio mutuo 
+   entre dichas empresas y el proyecto.
+
+3- Explica la demandas que tiene tu proyecto y/o Empresa.
+
+    
+
+/------------------------------------------/
+
+Crear un diagrama de flujo de Datos Logicos donde tenga las siguientes caracterisitcas:
+
+1. La entidad del Proyecto o la Empresa y la del Usuario.
+2. Tener un diccionario de Datos.
+3. Tener o Mostrar un nivel 0 o un nivel 1.

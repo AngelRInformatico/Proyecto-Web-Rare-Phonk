@@ -1,0 +1,50 @@
+/* * {
+    border: 1px solid red;
+} */
+
+/* .music-gallery {
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.music-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+} */
+
+/*.music-item {
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 3% 3%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    /*Ajustes de disposicion para las imagenes/banners*/
+    /*padding: 2% 2%; 
+}*/ 
+/* .music-item p {
+    z-index: 2;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    font-size: 1.25vw;
+    position: absolute;
+    margin-top: 9%;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    transition: 2s ease;
+}
+
+.music-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+} */
